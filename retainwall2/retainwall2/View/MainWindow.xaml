@@ -1,0 +1,72 @@
+﻿<Window x:Class="retainwall2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:retainwall2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="550">
+    
+    <Grid>
+        <Grid Background="Black">
+         
+        <Image HorizontalAlignment="Right"  Source="./1.png" ></Image>
+
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Width="200">
+                <Grid  Height="30" Margin="0 10 0 0">
+                    <TextBlock FontSize="20" Foreground="Yellow"> Nhập a =</TextBlock>
+                    <TextBox x:Name="Textba" Width="100" 
+                             HorizontalAlignment="Right" 
+                             Background="Yellow"
+                             Text="{Binding Length}"/>
+                </Grid>
+                <Grid  Height="30" Margin="0 10 0 0">
+                    <TextBlock FontSize="20" Foreground="Yellow"> Nhập b =</TextBlock>
+                    <TextBox x:Name="Textbb" Width="100" 
+                             HorizontalAlignment="Right" 
+                             Background="Yellow"
+                             Text="{Binding Lengthb}"/>
+                </Grid>
+                <Grid  Height="30" Margin="0 10 0 0">
+                    <TextBlock FontSize="20" Foreground="Yellow"> Nhập c =</TextBlock>
+                    <TextBox x:Name="Textbc" Width="100" 
+                             HorizontalAlignment="Right" 
+                             Background="Yellow"
+                             Text="{Binding Lengthc}"/>
+                </Grid>
+                <Grid  Height="30" Margin="0 10 0 0">
+                    <TextBlock FontSize="20" Foreground="Yellow"> Nhập d =</TextBlock>
+                    <TextBox x:Name="Textbd" Width="100" 
+                             HorizontalAlignment="Right" 
+                             Background="Yellow"
+                             Text="{Binding Lengthd}"/>
+                </Grid>
+                <Grid  Height="30" Margin="0 10 0 0">
+                    <TextBlock FontSize="20" Foreground="Yellow"> Nhập e =</TextBlock>
+                    <TextBox x:Name="Textbe" Width="100" 
+                             HorizontalAlignment="Right" 
+                             Background="Yellow"
+                             Text="{Binding Lengthe}"/>
+                </Grid>
+                <Grid  Height="30" Margin="0 10 0 0">
+                    <TextBlock FontSize="20" Foreground="Yellow"> Nhập f =</TextBlock>
+                    <TextBox x:Name="Textbf" Width="100" 
+                             HorizontalAlignment="Right" 
+                             Background="Yellow"
+                             Text="{Binding Lengthf}"/>
+                </Grid>
+                <Grid  Height="30" Margin="0 10 0 0">
+                    <TextBlock FontSize="20" Foreground="Yellow"> Nhập g =</TextBlock>
+                    <TextBox x:Name="Textbg" Width="100" 
+                             HorizontalAlignment="Right" 
+                             Background="Yellow"
+                             Text="{Binding Lengthg}"/>
+                </Grid>
+                <Button Click="Button_Click"
+                        Margin="0 20 0 0"
+                        >ok</Button>
+            </StackPanel>
+        </Grid>
+        
+    </Grid>
+</Window>
